@@ -33,7 +33,7 @@ def animate(i):
             yArr.append(int(y))
     
     ax1.clear()
-    ax1.plot(xArr, yArr)
+    ax1.plot(xArr, yArr, marker="o", markerfacecolor="grey", markersize="10")
 
 ani = animation.FuncAnimation(fig, animate, interval=1000)
 plt.show()
