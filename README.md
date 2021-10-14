@@ -23,7 +23,7 @@ def f(x):
             x = (3*x) + 1
         
         n += 1
-        print(f"x = {str(n)}, y = {str(intx))}
+        print(f"x = {str(n)}, y = {str(intx))}")
 ```
 
 ## The Visualiser
